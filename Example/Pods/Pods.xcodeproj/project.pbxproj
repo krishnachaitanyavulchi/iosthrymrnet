@@ -9,8 +9,11 @@
 /* Begin PBXBuildFile section */
 		37128C0B61E20D1CA183684A1E0AF7EB /* Pods-iosthrymrnet_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 775B1EB0FE0FE736DAEF1363C824D21C /* Pods-iosthrymrnet_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		391602D8AF758B04E15A100A3C425EAD /* iosthrymrnet-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C3FDA66A6039F1E23793E6FFAEBAF56 /* iosthrymrnet-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		438692C8801939F0F0739FC70A59EEB1 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 1674E6F62F6349225B47166197E47F0D /* ReplaceMe.m */; };
 		45775670B5C5B0CF61C70A998D6D0323 /* Pods-iosthrymrnet_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75DCD1892CCF4CAFF0EBDE6FF1585EDE /* Pods-iosthrymrnet_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		591485441F344DC9004BB3DD /* SampleFileDemo.h in Headers */ = {isa = PBXBuildFile; fileRef = 591485421F344DC9004BB3DD /* SampleFileDemo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		591485451F344DC9004BB3DD /* SampleFileDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 591485431F344DC9004BB3DD /* SampleFileDemo.m */; };
+		591485481F34539B004BB3DD /* rgtergfg.h in Headers */ = {isa = PBXBuildFile; fileRef = 591485461F34539B004BB3DD /* rgtergfg.h */; };
+		591485491F34539B004BB3DD /* rgtergfg.m in Sources */ = {isa = PBXBuildFile; fileRef = 591485471F34539B004BB3DD /* rgtergfg.m */; };
 		59BEF2010FD403784BAD8DCFB3DFB037 /* iosthrymrnet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD377D0023E1B7474BFF659644E1DEA0 /* iosthrymrnet-dummy.m */; };
 		62DABC68E1260D2D0976D91AFE32722D /* Pods-iosthrymrnet_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4273A567CC77DDE97157CAA56E207229 /* Pods-iosthrymrnet_Example-dummy.m */; };
 		82E261CD4859E40EB87D84BD47454705 /* Pods-iosthrymrnet_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CE068C1323492698F304C4D1ECD1FB /* Pods-iosthrymrnet_Tests-dummy.m */; };
@@ -31,14 +34,17 @@
 
 /* Begin PBXFileReference section */
 		03C07B96C79024F17A88481740D43CEF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1674E6F62F6349225B47166197E47F0D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = iosthrymrnet/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		291367854F3CCA1C8D59804B8E7B2382 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37D65AE498EBB0B339FAE87BF50E9C87 /* Pods-iosthrymrnet_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iosthrymrnet_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3DE354310A94BF8350AAAF66B8AE1594 /* Pods-iosthrymrnet_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iosthrymrnet_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		41D55BA9F43F7660F38062BA6CA7A337 /* Pods-iosthrymrnet_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iosthrymrnet_Example-resources.sh"; sourceTree = "<group>"; };
 		4273A567CC77DDE97157CAA56E207229 /* Pods-iosthrymrnet_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iosthrymrnet_Example-dummy.m"; sourceTree = "<group>"; };
 		4DC1DE3A72721F58EB122DA7F34DAD5D /* Pods-iosthrymrnet_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iosthrymrnet_Tests-resources.sh"; sourceTree = "<group>"; };
-		577166D065B01EC0068A61A49E75F6C4 /* Pods-iosthrymrnet_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-iosthrymrnet_Example.modulemap"; sourceTree = "<group>"; };
+		577166D065B01EC0068A61A49E75F6C4 /* Pods-iosthrymrnet_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-iosthrymrnet_Example.modulemap"; sourceTree = "<group>"; };
+		591485421F344DC9004BB3DD /* SampleFileDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleFileDemo.h; sourceTree = "<group>"; };
+		591485431F344DC9004BB3DD /* SampleFileDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleFileDemo.m; sourceTree = "<group>"; };
+		591485461F34539B004BB3DD /* rgtergfg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rgtergfg.h; sourceTree = "<group>"; };
+		591485471F34539B004BB3DD /* rgtergfg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rgtergfg.m; sourceTree = "<group>"; };
 		5FB7D3ABA944056795CE8F05CCD20BF6 /* iosthrymrnet-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iosthrymrnet-prefix.pch"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		67A16A82913F06C7E3953160F8FCAB54 /* Pods-iosthrymrnet_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iosthrymrnet_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -47,20 +53,20 @@
 		8C151542A3B930F651C2783EF800BE1B /* Pods-iosthrymrnet_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iosthrymrnet_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		90A80453A071924BE9A6738867B92F12 /* iosthrymrnet.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iosthrymrnet.xcconfig; sourceTree = "<group>"; };
 		915F5A216F59F8E447CDF0D162E725C1 /* Pods-iosthrymrnet_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iosthrymrnet_Example.release.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9C3FDA66A6039F1E23793E6FFAEBAF56 /* iosthrymrnet-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iosthrymrnet-umbrella.h"; sourceTree = "<group>"; };
 		ADE2304C1C16C8470C0FBAF1AF6523CD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B501D27541EC767270AB55F6256AAF5E /* iosthrymrnet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = iosthrymrnet.framework; path = iosthrymrnet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B501D27541EC767270AB55F6256AAF5E /* iosthrymrnet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iosthrymrnet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD377D0023E1B7474BFF659644E1DEA0 /* iosthrymrnet-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iosthrymrnet-dummy.m"; sourceTree = "<group>"; };
-		C354791917FF32A9B73C146581EEAB5B /* Pods_iosthrymrnet_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iosthrymrnet_Tests.framework; path = "Pods-iosthrymrnet_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C354791917FF32A9B73C146581EEAB5B /* Pods_iosthrymrnet_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iosthrymrnet_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5CE068C1323492698F304C4D1ECD1FB /* Pods-iosthrymrnet_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iosthrymrnet_Tests-dummy.m"; sourceTree = "<group>"; };
 		CD0B06F44D74A74DCA4C06906044BA41 /* Pods-iosthrymrnet_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iosthrymrnet_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		CE58B7AE0A443C35EFCA4D99966EDE85 /* Pods_iosthrymrnet_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iosthrymrnet_Example.framework; path = "Pods-iosthrymrnet_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE58B7AE0A443C35EFCA4D99966EDE85 /* Pods_iosthrymrnet_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iosthrymrnet_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3688BFE74ABB9DEF6EBB55C635CF2FA /* Pods-iosthrymrnet_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iosthrymrnet_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E81D8774A155FD46EE713F1F552A4725 /* Pods-iosthrymrnet_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-iosthrymrnet_Tests.modulemap"; sourceTree = "<group>"; };
+		E81D8774A155FD46EE713F1F552A4725 /* Pods-iosthrymrnet_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-iosthrymrnet_Tests.modulemap"; sourceTree = "<group>"; };
 		ECD61CA74BE87DF5C5688F363A2C46C9 /* Pods-iosthrymrnet_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iosthrymrnet_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F04C4A1C4C167CC93A398D02E1A15F4D /* Pods-iosthrymrnet_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iosthrymrnet_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F2FC9C98C748D3B87A1C622B30F3BAFE /* iosthrymrnet.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = iosthrymrnet.modulemap; sourceTree = "<group>"; };
+		F2FC9C98C748D3B87A1C622B30F3BAFE /* iosthrymrnet.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = iosthrymrnet.modulemap; sourceTree = "<group>"; };
 		F84DD8154B04A526349FFDC58B798824 /* Pods-iosthrymrnet_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iosthrymrnet_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -128,6 +134,17 @@
 			path = "Target Support Files/Pods-iosthrymrnet_Tests";
 			sourceTree = "<group>";
 		};
+		591485411F344D39004BB3DD /* SampleFile */ = {
+			isa = PBXGroup;
+			children = (
+				591485421F344DC9004BB3DD /* SampleFileDemo.h */,
+				591485431F344DC9004BB3DD /* SampleFileDemo.m */,
+				591485461F34539B004BB3DD /* rgtergfg.h */,
+				591485471F34539B004BB3DD /* rgtergfg.m */,
+			);
+			name = SampleFile;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -164,7 +181,7 @@
 		A8CE07CB0C0E557F1A2B698840D12CCF /* iosthrymrnet */ = {
 			isa = PBXGroup;
 			children = (
-				1674E6F62F6349225B47166197E47F0D /* ReplaceMe.m */,
+				591485411F344D39004BB3DD /* SampleFile */,
 				A6E78F01C7B6BE6CA64534CA72A8BF81 /* Support Files */,
 			);
 			name = iosthrymrnet;
@@ -221,7 +238,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				591485481F34539B004BB3DD /* rgtergfg.h in Headers */,
 				391602D8AF758B04E15A100A3C425EAD /* iosthrymrnet-umbrella.h in Headers */,
+				591485441F344DC9004BB3DD /* SampleFileDemo.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,7 +341,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				59BEF2010FD403784BAD8DCFB3DFB037 /* iosthrymrnet-dummy.m in Sources */,
-				438692C8801939F0F0739FC70A59EEB1 /* ReplaceMe.m in Sources */,
+				591485491F34539B004BB3DD /* rgtergfg.m in Sources */,
+				591485451F344DC9004BB3DD /* SampleFileDemo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
