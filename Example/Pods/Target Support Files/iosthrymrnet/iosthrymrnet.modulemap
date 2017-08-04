@@ -1,0 +1,6 @@
+framework module iosthrymrnet {
+  umbrella header "iosthrymrnet-umbrella.h"
+
+  export *
+  module * { export * }
+}

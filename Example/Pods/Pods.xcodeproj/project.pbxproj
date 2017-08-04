@@ -1,0 +1,702 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37128C0B61E20D1CA183684A1E0AF7EB /* Pods-iosthrymrnet_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 775B1EB0FE0FE736DAEF1363C824D21C /* Pods-iosthrymrnet_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		391602D8AF758B04E15A100A3C425EAD /* iosthrymrnet-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C3FDA66A6039F1E23793E6FFAEBAF56 /* iosthrymrnet-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		438692C8801939F0F0739FC70A59EEB1 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 1674E6F62F6349225B47166197E47F0D /* ReplaceMe.m */; };
+		45775670B5C5B0CF61C70A998D6D0323 /* Pods-iosthrymrnet_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75DCD1892CCF4CAFF0EBDE6FF1585EDE /* Pods-iosthrymrnet_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59BEF2010FD403784BAD8DCFB3DFB037 /* iosthrymrnet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD377D0023E1B7474BFF659644E1DEA0 /* iosthrymrnet-dummy.m */; };
+		62DABC68E1260D2D0976D91AFE32722D /* Pods-iosthrymrnet_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4273A567CC77DDE97157CAA56E207229 /* Pods-iosthrymrnet_Example-dummy.m */; };
+		82E261CD4859E40EB87D84BD47454705 /* Pods-iosthrymrnet_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CE068C1323492698F304C4D1ECD1FB /* Pods-iosthrymrnet_Tests-dummy.m */; };
+		8730B006D7FD1C0FCFC22EE73790338A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9B807579B4EC9A0AE1902836C9591BF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C81C5D0D3EE5F92636EF9BE4E0C324EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3EF6A1DA7DB24767A2417A02B1702BBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B4ABD32F8CE5CFCABF40AD0F53A4973;
+			remoteInfo = iosthrymrnet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03C07B96C79024F17A88481740D43CEF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1674E6F62F6349225B47166197E47F0D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = iosthrymrnet/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		291367854F3CCA1C8D59804B8E7B2382 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37D65AE498EBB0B339FAE87BF50E9C87 /* Pods-iosthrymrnet_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iosthrymrnet_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3DE354310A94BF8350AAAF66B8AE1594 /* Pods-iosthrymrnet_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iosthrymrnet_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		41D55BA9F43F7660F38062BA6CA7A337 /* Pods-iosthrymrnet_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iosthrymrnet_Example-resources.sh"; sourceTree = "<group>"; };
+		4273A567CC77DDE97157CAA56E207229 /* Pods-iosthrymrnet_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iosthrymrnet_Example-dummy.m"; sourceTree = "<group>"; };
+		4DC1DE3A72721F58EB122DA7F34DAD5D /* Pods-iosthrymrnet_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iosthrymrnet_Tests-resources.sh"; sourceTree = "<group>"; };
+		577166D065B01EC0068A61A49E75F6C4 /* Pods-iosthrymrnet_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-iosthrymrnet_Example.modulemap"; sourceTree = "<group>"; };
+		5FB7D3ABA944056795CE8F05CCD20BF6 /* iosthrymrnet-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iosthrymrnet-prefix.pch"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		67A16A82913F06C7E3953160F8FCAB54 /* Pods-iosthrymrnet_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iosthrymrnet_Example-frameworks.sh"; sourceTree = "<group>"; };
+		75DCD1892CCF4CAFF0EBDE6FF1585EDE /* Pods-iosthrymrnet_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iosthrymrnet_Example-umbrella.h"; sourceTree = "<group>"; };
+		775B1EB0FE0FE736DAEF1363C824D21C /* Pods-iosthrymrnet_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iosthrymrnet_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8C151542A3B930F651C2783EF800BE1B /* Pods-iosthrymrnet_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iosthrymrnet_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		90A80453A071924BE9A6738867B92F12 /* iosthrymrnet.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iosthrymrnet.xcconfig; sourceTree = "<group>"; };
+		915F5A216F59F8E447CDF0D162E725C1 /* Pods-iosthrymrnet_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iosthrymrnet_Example.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C3FDA66A6039F1E23793E6FFAEBAF56 /* iosthrymrnet-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iosthrymrnet-umbrella.h"; sourceTree = "<group>"; };
+		ADE2304C1C16C8470C0FBAF1AF6523CD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B501D27541EC767270AB55F6256AAF5E /* iosthrymrnet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = iosthrymrnet.framework; path = iosthrymrnet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD377D0023E1B7474BFF659644E1DEA0 /* iosthrymrnet-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iosthrymrnet-dummy.m"; sourceTree = "<group>"; };
+		C354791917FF32A9B73C146581EEAB5B /* Pods_iosthrymrnet_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iosthrymrnet_Tests.framework; path = "Pods-iosthrymrnet_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5CE068C1323492698F304C4D1ECD1FB /* Pods-iosthrymrnet_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iosthrymrnet_Tests-dummy.m"; sourceTree = "<group>"; };
+		CD0B06F44D74A74DCA4C06906044BA41 /* Pods-iosthrymrnet_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iosthrymrnet_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CE58B7AE0A443C35EFCA4D99966EDE85 /* Pods_iosthrymrnet_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iosthrymrnet_Example.framework; path = "Pods-iosthrymrnet_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3688BFE74ABB9DEF6EBB55C635CF2FA /* Pods-iosthrymrnet_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iosthrymrnet_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E81D8774A155FD46EE713F1F552A4725 /* Pods-iosthrymrnet_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-iosthrymrnet_Tests.modulemap"; sourceTree = "<group>"; };
+		ECD61CA74BE87DF5C5688F363A2C46C9 /* Pods-iosthrymrnet_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iosthrymrnet_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F04C4A1C4C167CC93A398D02E1A15F4D /* Pods-iosthrymrnet_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iosthrymrnet_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F2FC9C98C748D3B87A1C622B30F3BAFE /* iosthrymrnet.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = iosthrymrnet.modulemap; sourceTree = "<group>"; };
+		F84DD8154B04A526349FFDC58B798824 /* Pods-iosthrymrnet_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iosthrymrnet_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		013D7476F0EB26C2EA019F31E22502FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B807579B4EC9A0AE1902836C9591BF9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51E66FEDE895CD91392C3A29443FFDA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8730B006D7FD1C0FCFC22EE73790338A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DBF89C9CE12EEBF9FCCEFF604661AC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C81C5D0D3EE5F92636EF9BE4E0C324EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06DCAF4FF56FE00567D527D22E2BC580 /* Pods-iosthrymrnet_Example */ = {
+			isa = PBXGroup;
+			children = (
+				ADE2304C1C16C8470C0FBAF1AF6523CD /* Info.plist */,
+				577166D065B01EC0068A61A49E75F6C4 /* Pods-iosthrymrnet_Example.modulemap */,
+				ECD61CA74BE87DF5C5688F363A2C46C9 /* Pods-iosthrymrnet_Example-acknowledgements.markdown */,
+				F04C4A1C4C167CC93A398D02E1A15F4D /* Pods-iosthrymrnet_Example-acknowledgements.plist */,
+				4273A567CC77DDE97157CAA56E207229 /* Pods-iosthrymrnet_Example-dummy.m */,
+				67A16A82913F06C7E3953160F8FCAB54 /* Pods-iosthrymrnet_Example-frameworks.sh */,
+				41D55BA9F43F7660F38062BA6CA7A337 /* Pods-iosthrymrnet_Example-resources.sh */,
+				75DCD1892CCF4CAFF0EBDE6FF1585EDE /* Pods-iosthrymrnet_Example-umbrella.h */,
+				CD0B06F44D74A74DCA4C06906044BA41 /* Pods-iosthrymrnet_Example.debug.xcconfig */,
+				915F5A216F59F8E447CDF0D162E725C1 /* Pods-iosthrymrnet_Example.release.xcconfig */,
+			);
+			name = "Pods-iosthrymrnet_Example";
+			path = "Target Support Files/Pods-iosthrymrnet_Example";
+			sourceTree = "<group>";
+		};
+		586183073DC4E89912D8C7036D97F80B /* Pods-iosthrymrnet_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				291367854F3CCA1C8D59804B8E7B2382 /* Info.plist */,
+				E81D8774A155FD46EE713F1F552A4725 /* Pods-iosthrymrnet_Tests.modulemap */,
+				37D65AE498EBB0B339FAE87BF50E9C87 /* Pods-iosthrymrnet_Tests-acknowledgements.markdown */,
+				F84DD8154B04A526349FFDC58B798824 /* Pods-iosthrymrnet_Tests-acknowledgements.plist */,
+				C5CE068C1323492698F304C4D1ECD1FB /* Pods-iosthrymrnet_Tests-dummy.m */,
+				3DE354310A94BF8350AAAF66B8AE1594 /* Pods-iosthrymrnet_Tests-frameworks.sh */,
+				4DC1DE3A72721F58EB122DA7F34DAD5D /* Pods-iosthrymrnet_Tests-resources.sh */,
+				775B1EB0FE0FE736DAEF1363C824D21C /* Pods-iosthrymrnet_Tests-umbrella.h */,
+				D3688BFE74ABB9DEF6EBB55C635CF2FA /* Pods-iosthrymrnet_Tests.debug.xcconfig */,
+				8C151542A3B930F651C2783EF800BE1B /* Pods-iosthrymrnet_Tests.release.xcconfig */,
+			);
+			name = "Pods-iosthrymrnet_Tests";
+			path = "Target Support Files/Pods-iosthrymrnet_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				93A3908F7A705C743942BF781C4C723C /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				E3E8347D23C4B785A897B34EA23A1B52 /* Products */,
+				D6A5161023F900CBE54FE0650E0928DE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		93A3908F7A705C743942BF781C4C723C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8CE07CB0C0E557F1A2B698840D12CCF /* iosthrymrnet */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A6E78F01C7B6BE6CA64534CA72A8BF81 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				03C07B96C79024F17A88481740D43CEF /* Info.plist */,
+				F2FC9C98C748D3B87A1C622B30F3BAFE /* iosthrymrnet.modulemap */,
+				90A80453A071924BE9A6738867B92F12 /* iosthrymrnet.xcconfig */,
+				BD377D0023E1B7474BFF659644E1DEA0 /* iosthrymrnet-dummy.m */,
+				5FB7D3ABA944056795CE8F05CCD20BF6 /* iosthrymrnet-prefix.pch */,
+				9C3FDA66A6039F1E23793E6FFAEBAF56 /* iosthrymrnet-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/iosthrymrnet";
+			sourceTree = "<group>";
+		};
+		A8CE07CB0C0E557F1A2B698840D12CCF /* iosthrymrnet */ = {
+			isa = PBXGroup;
+			children = (
+				1674E6F62F6349225B47166197E47F0D /* ReplaceMe.m */,
+				A6E78F01C7B6BE6CA64534CA72A8BF81 /* Support Files */,
+			);
+			name = iosthrymrnet;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D6A5161023F900CBE54FE0650E0928DE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				06DCAF4FF56FE00567D527D22E2BC580 /* Pods-iosthrymrnet_Example */,
+				586183073DC4E89912D8C7036D97F80B /* Pods-iosthrymrnet_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E3E8347D23C4B785A897B34EA23A1B52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B501D27541EC767270AB55F6256AAF5E /* iosthrymrnet.framework */,
+				CE58B7AE0A443C35EFCA4D99966EDE85 /* Pods_iosthrymrnet_Example.framework */,
+				C354791917FF32A9B73C146581EEAB5B /* Pods_iosthrymrnet_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		307114F4818D6B940128A3154CCAD856 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45775670B5C5B0CF61C70A998D6D0323 /* Pods-iosthrymrnet_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56C9F0FFEBFA43CB648FE7DFD715741C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				391602D8AF758B04E15A100A3C425EAD /* iosthrymrnet-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFC8504628BC900C8FF40B63D6844FB2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37128C0B61E20D1CA183684A1E0AF7EB /* Pods-iosthrymrnet_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0B4ABD32F8CE5CFCABF40AD0F53A4973 /* iosthrymrnet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8924D28D13EDE1C66D9D7A9D66E04056 /* Build configuration list for PBXNativeTarget "iosthrymrnet" */;
+			buildPhases = (
+				31682C48D187D9F7E70B5BEC52B0DE1D /* Sources */,
+				013D7476F0EB26C2EA019F31E22502FC /* Frameworks */,
+				56C9F0FFEBFA43CB648FE7DFD715741C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iosthrymrnet;
+			productName = iosthrymrnet;
+			productReference = B501D27541EC767270AB55F6256AAF5E /* iosthrymrnet.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		74E5A654BB1158C393DB8AF18CCE5AE0 /* Pods-iosthrymrnet_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BAF35EAD48B7E8A955F280E199F2993 /* Build configuration list for PBXNativeTarget "Pods-iosthrymrnet_Example" */;
+			buildPhases = (
+				6947DC278BEA2E86DAD0B509109A79CA /* Sources */,
+				8DBF89C9CE12EEBF9FCCEFF604661AC0 /* Frameworks */,
+				307114F4818D6B940128A3154CCAD856 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C736C2500330B8D388412F8C03B3861A /* PBXTargetDependency */,
+			);
+			name = "Pods-iosthrymrnet_Example";
+			productName = "Pods-iosthrymrnet_Example";
+			productReference = CE58B7AE0A443C35EFCA4D99966EDE85 /* Pods_iosthrymrnet_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		954508DB97DA77A6D025D7800E833873 /* Pods-iosthrymrnet_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BC1C8630714CDE44BE35B9B1F4A1CFF /* Build configuration list for PBXNativeTarget "Pods-iosthrymrnet_Tests" */;
+			buildPhases = (
+				B1E2B24B6BCB6AC7F9D7FE14E7DB8CC6 /* Sources */,
+				51E66FEDE895CD91392C3A29443FFDA8 /* Frameworks */,
+				BFC8504628BC900C8FF40B63D6844FB2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-iosthrymrnet_Tests";
+			productName = "Pods-iosthrymrnet_Tests";
+			productReference = C354791917FF32A9B73C146581EEAB5B /* Pods_iosthrymrnet_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E3E8347D23C4B785A897B34EA23A1B52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B4ABD32F8CE5CFCABF40AD0F53A4973 /* iosthrymrnet */,
+				74E5A654BB1158C393DB8AF18CCE5AE0 /* Pods-iosthrymrnet_Example */,
+				954508DB97DA77A6D025D7800E833873 /* Pods-iosthrymrnet_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31682C48D187D9F7E70B5BEC52B0DE1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59BEF2010FD403784BAD8DCFB3DFB037 /* iosthrymrnet-dummy.m in Sources */,
+				438692C8801939F0F0739FC70A59EEB1 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6947DC278BEA2E86DAD0B509109A79CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62DABC68E1260D2D0976D91AFE32722D /* Pods-iosthrymrnet_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1E2B24B6BCB6AC7F9D7FE14E7DB8CC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82E261CD4859E40EB87D84BD47454705 /* Pods-iosthrymrnet_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C736C2500330B8D388412F8C03B3861A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iosthrymrnet;
+			target = 0B4ABD32F8CE5CFCABF40AD0F53A4973 /* iosthrymrnet */;
+			targetProxy = 3EF6A1DA7DB24767A2417A02B1702BBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3C94552DB27F11E5FF314A8B7A4F440D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD0B06F44D74A74DCA4C06906044BA41 /* Pods-iosthrymrnet_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-iosthrymrnet_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iosthrymrnet_Example/Pods-iosthrymrnet_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_iosthrymrnet_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3F668722744AE3FA1CF0532C85DA4259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C151542A3B930F651C2783EF800BE1B /* Pods-iosthrymrnet_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-iosthrymrnet_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iosthrymrnet_Tests/Pods-iosthrymrnet_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_iosthrymrnet_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5AE2C40BF7D5BFAFA25FDFC4CEC738C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3688BFE74ABB9DEF6EBB55C635CF2FA /* Pods-iosthrymrnet_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-iosthrymrnet_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iosthrymrnet_Tests/Pods-iosthrymrnet_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_iosthrymrnet_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A1C29C57CFDC1A314B4C31A281F29A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90A80453A071924BE9A6738867B92F12 /* iosthrymrnet.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/iosthrymrnet/iosthrymrnet-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iosthrymrnet/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/iosthrymrnet/iosthrymrnet.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = iosthrymrnet;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		905032189C39815129ADD381E07AB255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90A80453A071924BE9A6738867B92F12 /* iosthrymrnet.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/iosthrymrnet/iosthrymrnet-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iosthrymrnet/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/iosthrymrnet/iosthrymrnet.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = iosthrymrnet;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		909E8D89D2970AF341E4A46C6D839148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 915F5A216F59F8E447CDF0D162E725C1 /* Pods-iosthrymrnet_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-iosthrymrnet_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iosthrymrnet_Example/Pods-iosthrymrnet_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_iosthrymrnet_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A6A03C9B1314C05BD3C2FBD3F65EDF83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A03C9B1314C05BD3C2FBD3F65EDF83 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BC1C8630714CDE44BE35B9B1F4A1CFF /* Build configuration list for PBXNativeTarget "Pods-iosthrymrnet_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AE2C40BF7D5BFAFA25FDFC4CEC738C7 /* Debug */,
+				3F668722744AE3FA1CF0532C85DA4259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BAF35EAD48B7E8A955F280E199F2993 /* Build configuration list for PBXNativeTarget "Pods-iosthrymrnet_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C94552DB27F11E5FF314A8B7A4F440D /* Debug */,
+				909E8D89D2970AF341E4A46C6D839148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8924D28D13EDE1C66D9D7A9D66E04056 /* Build configuration list for PBXNativeTarget "iosthrymrnet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				905032189C39815129ADD381E07AB255 /* Debug */,
+				8A1C29C57CFDC1A314B4C31A281F29A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

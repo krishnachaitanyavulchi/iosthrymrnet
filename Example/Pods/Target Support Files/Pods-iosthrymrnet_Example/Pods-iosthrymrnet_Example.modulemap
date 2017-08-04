@@ -1,0 +1,6 @@
+framework module Pods_iosthrymrnet_Example {
+  umbrella header "Pods-iosthrymrnet_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
